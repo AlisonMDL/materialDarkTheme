@@ -18,8 +18,8 @@
 <resources>
 
     <!-- app palette -->
-    <color name="primary">#64B5F6</color> <!-- Blue 300 -->
-    <color name="secondary">#4CAF50</color> <!-- Orange 200 -->
-    <color name="error">#Ef9A9A</color> <!-- Red 200 -->
-    <color name="background">#121212</color> <!-- Red 600 -->
+    <color name="primary">#64B5F6</color>
+    <color name="secondary">#4CAF50</color>
+    <color name="error">#Ef9A9A</color>
+    <color name="background">#121212</color>
 </resources>

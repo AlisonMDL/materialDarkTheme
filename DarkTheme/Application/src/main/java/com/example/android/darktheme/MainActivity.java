@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         // This demonstrates how to programmatically tint a drawable
         MenuItem item = menu.findItem(R.id.action_more);
         Drawable drawableWrap = DrawableCompat.wrap(item.getIcon()).mutate();
-        DrawableCompat.setTint(drawableWrap, ColorUtils.getThemeColor(this, R.attr.colorOnPrimary));
+//        DrawableCompat.setTint(drawableWrap, ColorUtils.getThemeColor(this, R.attr.colorOnSecondary));
         item.setIcon(drawableWrap);
 
         return true;

@@ -22,28 +22,19 @@
         <item name="colorPrimaryDark">@color/primary</item>
         <item name="colorSecondary">@color/secondary</item>
         <item name="colorError">@color/error</item>
-        <item name="android:textColorPrimary">@color/error</item>
-        <item name="android:windowBackground">@color/background </item>
-<!--        <item name="android:textColor">?attr/colorOnBackground</item>-->
+<!--        <item name="android:textColorPrimary">@color/error</item>-->
+<!--        <item name="android:windowBackground">@color/background </item>-->
+        <item name="android:textColor">?attr/colorOnBackground</item>
     </style>
 
     <!-- Toolbar -->
-    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
-        <!-- color used by the toolbar title -->
-        <item name="android:textColorPrimary">@color/secondary</item>
-        <!-- color used by navigation icon and overflow icon -->
-        <item name="colorOnPrimary">@color/secondary</item>
-    </style>
+<!--    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">-->
+<!--        &lt;!&ndash; color used by the toolbar title &ndash;&gt;-->
+<!--        <item name="android:textColorPrimary">@color/secondary</item>-->
+<!--        &lt;!&ndash; color used by navigation icon and overflow icon &ndash;&gt;-->
+<!--        <item name="colorOnPrimary">@color/secondary</item>-->
+<!--    </style>-->
 
-    <style name="MyThemeOverlay_Toolbar.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
-        <!-- For toolbar menu -->
-        <item name="android:tint">@color/secondary</item>
-    </style>
-
-    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
-        <!-- For the hamburger menu, back button, etc -->
-        <item name="tint">@color/secondary</item>
-    </style>
 
 
 
